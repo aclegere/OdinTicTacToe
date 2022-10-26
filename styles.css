@@ -1,0 +1,86 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: 'Oxygen', serif; 
+    background-color: #d3d0c9;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #f0e2ce;
+    border-bottom: solid 5px black;
+}
+
+h1{
+    font-size: 4.25em;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameboard{
+    display: grid;
+    margin-top: 6em;
+    margin-bottom: 3em;
+    border: 1px solid black;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+}
+
+.field{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: #f6f3e7;
+}
+
+.field:hover{
+    background-color: azure;
+    cursor: pointer;
+}
+
+.field:active{
+    background-color: #dce8e8;
+    cursor: pointer;
+}
+
+#restart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0e2ce;
+    border: 2px solid #111;
+    border-radius: 8px;
+    cursor: pointer;  
+    font-size: 16px;
+    height: 48px;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 0 25px;
+    text-decoration: none;
+    margin-bottom: 3em;
+}
+
+#restart:hover{
+    background-color: azure;
+    cursor: pointer;
+}
+
+#restart:active{
+    background-color: #dce8e8;
+    cursor: pointer;
+}
+
+p{
+    font-size: xx-large;
+}

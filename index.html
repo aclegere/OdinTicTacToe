@@ -5,9 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
 </head>
 <body>
+    <header>
+        <h1>Tic Tac Toe</h1>
+    </header>
+    <div class="mainContainer">
+        <div id="turnIndicator"><!--who's turn is it--></div>
+        <!--Game Board-->
+        <div class="gameboard">
+            <div class="field">x</div>
+            <div class="field">x</div>
+            <div class="field">x</div>
+            <div class="field">x</div>
+            <div class="field">x</div>
+            <div class="field">x</div>
+            <div class="field">x</div>
+            <div class="field">x</div>
+            <div class="field">x</div>
+        </div>
+        <!--Reset Button-->
+        <div class="resetBtn">
+            <button id="restart">Restart!</button>
+        </div>
+        <div class="message">
+            <p></p>
+        </div>
+    </div>
 </body>
 </html>
