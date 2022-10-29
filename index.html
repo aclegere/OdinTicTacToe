@@ -7,7 +7,6 @@
     <title>Tic Tac Toe</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen">
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -16,24 +15,24 @@
     <div class="mainContainer">
         <div id="turnIndicator"><!--who's turn is it--></div>
         <!--Game Board-->
-        <div class="gameboard">
-            <div class="field">x</div>
-            <div class="field">x</div>
-            <div class="field">x</div>
-            <div class="field">x</div>
-            <div class="field">x</div>
-            <div class="field">x</div>
-            <div class="field">x</div>
-            <div class="field">x</div>
-            <div class="field">x</div>
+        <div id="gameboard">
+            <div class="field"></div>
+            <div class="field"></div>
+            <div class="field"></div>
+            <div class="field"></div>
+            <div class="field"></div>
+            <div class="field"></div>
+            <div class="field"></div>
+            <div class="field"></div>
+            <div class="field"></div>
         </div>
-        <!--Reset Button-->
         <div class="resetBtn">
             <button id="restart">Restart!</button>
         </div>
         <div class="message">
-            <p></p>
+            <p id="messageText"></p>
         </div>
     </div>
 </body>
+<script src="script.js"></script>
 </html>

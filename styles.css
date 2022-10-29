@@ -27,13 +27,13 @@ h1{
     align-items: center;
 }
 
-.gameboard{
+#gameboard{
     display: grid;
-    margin-top: 6em;
     margin-bottom: 3em;
     border: 1px solid black;
-    grid-template-rows: 100px 100px 100px;
-    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: repeat(3, 150px);
+    grid-template-columns: repeat(3, 150px);
+    box-shadow: 12px 12px 2px 1px;
 }
 
 .field{
@@ -42,6 +42,12 @@ h1{
     justify-content: center;
     border: 1px solid black;
     background-color: #f6f3e7;
+    font-size: 4rem;
+}
+
+#turnIndicator{
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .field:hover{
