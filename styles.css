@@ -60,33 +60,6 @@ h1{
     cursor: pointer;
 }
 
-#restart{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #f0e2ce;
-    border: 2px solid #111;
-    border-radius: 8px;
-    cursor: pointer;  
-    font-size: 16px;
-    height: 48px;
-    line-height: 24px;
-    max-width: 100%;
-    padding: 0 25px;
-    text-decoration: none;
-    margin-bottom: 3em;
-}
-
-#restart:hover{
-    background-color: azure;
-    cursor: pointer;
-}
-
-#restart:active{
-    background-color: #dce8e8;
-    cursor: pointer;
-}
-
 p{
     font-size: xx-large;
 }
